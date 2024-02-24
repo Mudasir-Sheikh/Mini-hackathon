@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:rgb(16, 64, 193);
+    
+}
+.wrapper{
+    padding: 40px 120px;
+
+}
+.mygrid{
+    width: 100%;
+    height: 500px;
+
+    margin-top: 160px;
+}
+.mycol{
+    width: 40%;
+    height: 500px;
+
+
+}
+.colbox1{
+    font-size: 48px;
+    font-weight: 600;
+
+    margin-top: 90px;
+    text-align: left;
+
+}
+.colbox2{
+    font-size: 20px;
+    font-weight: 400;
+
+    text-align: left;
+
+
+
+}
+.colbox3{
+    font-size: 20px;
+    font-weight: 400;
+    color:var(--color);
+
+    text-align: left;
+    padding-top: 10px;
+
+}
+.colbox3 img{
+    width: 26px;
+    height: 14px;
+}
+
+
+.section6{
+    display: flex;
+
+    margin-top: 150px;
+}
+.piced1{
+    width: 40%;
+
+    padding-right: 15px;
+
+}
+.piced1 p{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.piced2{
+    width: 60%;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.piced2 img{
+    width: 195px;
+}
+
+.bluee{
+    border: 2px solid red;
+    background-color: rgb(0, 0, 122);
+    margin-top: 80px;
+}
+.bluebox1{
+    font-size: 44px;
+    font-weight: 600;
+    color: white;
+    padding:10px 100px
+
+    
+}
+.bluebox2{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.bluebox2 button{
+    padding: 15px 50px;
+    font-size: 18px;
+    color: blue;
+    border-radius: 20px;
+
+}
+.bluebox3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+.bluebox3 p{
+    padding: 20px;
+    font-size: 26px;
+    color: white;
+    background-color: rgb(45, 45, 197);
+    border-radius: 14px;
+
+}

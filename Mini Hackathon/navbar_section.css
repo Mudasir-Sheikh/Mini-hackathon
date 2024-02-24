@@ -1,0 +1,19 @@
+.cstnavbar{
+    border: 2px solid blue;
+}
+.cstbuttonslogin{
+    gap: 20px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+.cstlogoimg{
+    width: 50px;
+    height: 50px;
+}
+.cstnavbar1{
+    font-size: 18px;
+    font-weight: 400;
+    color: blue !important;
+}
